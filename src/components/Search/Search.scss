@@ -1,0 +1,19 @@
+.search-wrapper {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        font-size: 1.5em;
+        outline: 0;
+        border: 1px solid #2F324C;
+        border-radius: 15px;
+        padding: 0.6vh;
+        
+        &:hover {
+            border: 2px solid #2F324C;
+            border-radius: 15px;
+        }
+    }
+}
